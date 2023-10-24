@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: #34e5a6;
+  color: #1593f4;
   text-decoration: none;
 }
 
@@ -992,7 +992,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 3, 111, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .testimonials .section-header {
@@ -1068,6 +1068,46 @@ section {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1593f4;
+}
+
+.testimonials-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px; 
+}
+.swiper-container {
+  margin-top: 20px;
+  width: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  padding: 20px;
+}
+.testimonial-item {
+  overflow: hidden; /* Menyembunyikan konten yang melampaui batas atas */
+  border: 2px 
+  solid #01036f; 
+  background-color: #f8f8f8; 
+  padding: 20px; 
+  border-radius: 10px;"  
+}
+.testimonial-item img {
+  max-width: 75%;
+  height: auto;
+  margin: 0 auto 10px; /* Menambahkan margin ke bawah gambar */
+}
+.testimonial-item h2 {
+  margin: 30px auto 20px;
+  font-size: 24px;
+  color: #333;
+}
+.testimonial-item h4 {
+  font-size: 18px
+  color: #777;
+}
+.testimonial-item p {
+  ont-size: 16px; 
+  color: #444; 
 }
 
 @media (min-width: 1024px) {
@@ -1314,7 +1354,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #34e5a6;
+  color: #1593f4;
 }
 
 .faq .faq-list .icon-show,
@@ -1480,7 +1520,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #34e5a6;
+  background: #1593f4;
 }
 
 @keyframes animate-loading {
