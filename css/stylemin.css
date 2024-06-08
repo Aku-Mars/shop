@@ -1293,7 +1293,8 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #821818;
+  background: #272b52;
+  transform: scale(1.2);
 }
 
 .pricing .featured h3 {
