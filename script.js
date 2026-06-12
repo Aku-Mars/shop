@@ -18,10 +18,13 @@ bgSidebar.addEventListener('click', function() {
 window.onscroll = function() {scrollFunction()};
  
 function scrollFunction() {
+  const scrollBtn = document.getElementById("scroll-btn");
+  if (!scrollBtn) return;
+  
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("scroll-btn").style.display = "block";
+    scrollBtn.style.display = "block";
   } else {
-    document.getElementById("scroll-btn").style.display = "none";
+    scrollBtn.style.display = "none";
   }
 }
  
